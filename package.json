@@ -1,0 +1,19 @@
+{
+  "name": "svg-path-generator",
+  "version": "0.1.0",
+  "description": "Svg path geerator",
+  "main": "index.js",
+  "repository": "https://github.com/smecnarowski/svg-path-generator.git",
+  "author": "Szymon Męcnarowski <smecnarowski@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha --require babel-register \"./test/**/*.spec.js\""
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
